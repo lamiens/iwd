@@ -10,13 +10,9 @@ if (isset($_FILES['story'])){
     $storyName = $_FILES['story']['name'];
     move_uploaded_file($_FILES['story']['tmp_name'], $target_file);
     $method = Methods::getInstance();
-    //$method->setStories($target_file);
+    $method->setStories($target_file);
     $notification = toastSucces($storyName);
 }
-
-$method = Methods::getInstance();
-$method->deleteStory(225);
-
 
 ?>
 

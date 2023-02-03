@@ -1,0 +1,22 @@
+.container{
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto !important;
+    margin-top: 5% !important;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.story{
+    display: inline-block;
+}
+
+.title{
+    margin-top: 10% !important;
+}
